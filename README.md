@@ -68,8 +68,8 @@ logfile        ~/.msmtp.log
 account        gmail
 host           smtp.gmail.com
 port           587
-from           lap.bot.alpha@gmail.com
-user           lap.bot.alpha@gmail.com
+from           bot@gmail.com
+user           bot@gmail.com
 passwordeval   "gpg --quiet --for-your-eyes-only --no-tty -d ~/.gmail_password.gpg"
 
 account default : gmail
